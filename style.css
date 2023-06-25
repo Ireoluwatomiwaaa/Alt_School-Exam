@@ -1,0 +1,741 @@
+@import url('https://fonts.cdnfonts.com/css/gilroy-bold');
+
+                
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+}
+
+
+/* Header Section  */
+#header {
+    margin: 12px 145px 106px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+#header .nav-list span {
+    margin-right: 4px;
+}
+
+#header .header-container {
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 44px;
+    margin-right: 145px;
+    margin-left: 145px;
+    justify-content: space-between;
+}
+
+#header .header-container .nav-list ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 40px; 
+    justify-content: center;
+    font-family: Gilroy-Medium;
+}
+
+#header .header-container .nav-list ul li span {
+    margin-left: 4px;
+}
+
+#header .header-container .buttons {
+    display: flex;
+    gap: 20px;
+    justify-content: flex-end;
+}
+
+#header .header-container .buttons .button1 {
+    border: none;
+    background-color: transparent;
+    color: #0065FE;
+    font-size: 1rem;
+    line-height: 19px;
+}
+
+#header .header-container .buttons .button2 {
+    border: none;
+    background-color: #0065FE;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 30px;
+    font-size: 1rem;
+    line-height: 0.75rem;
+    
+}
+/* End of Header Section  */
+
+/* Hero Section  */
+#hero .main-text {
+    margin-top: 106px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#hero .main-text h1 {
+    font-size: 3rem;
+    display: block;
+    text-align: center;
+    line-height: 6rem;
+    font-family: Gilroy-Bold;
+
+}
+
+#hero .main-text svg {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: -25px;
+}
+
+#hero .main-text h1 span {
+    color:#005AE2
+}
+
+#hero .sub-text {
+    margin-top: 18px;
+}
+
+#hero .sub-text p {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    display: block;
+    text-align: center;
+    font-family: Gilroy-Medium;
+}
+
+#hero .buttons {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    gap: 3.5rem;
+    margin-top: 30px;
+    margin-bottom: 80px;
+}
+
+#hero .buttons .button1 {
+    border: none;
+    background-color: #0065FE;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 30px;
+    line-height: 0.75rem;
+    font-size: 1rem;
+}
+
+#hero .buttons .button2 {
+    border: none;
+    background-color: transparent;
+    color: #0065FE;
+    line-height: 20px;
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+#hero .frame {
+    display: block;
+    text-align: center;
+    margin-bottom: 76px;
+}
+
+#hero .frame svg {
+    position: absolute;
+    z-index: -2;
+    top: 585px;
+}
+
+#hero .footer img {
+    width: 100%;
+    margin-bottom: -4px;
+}
+
+/* End of Hero Section  */
+
+
+
+/* Stats section  */
+#stats {
+    background-color: #F9FBFD;
+    display: flex;
+    flex-direction: row;
+    padding: 60px 140px;
+    gap: 120px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.stats-hero {
+    font-size: 2.5rem;
+    font-family: Gilroy-Bold;
+    line-height: 3rem;
+}
+
+.stats-hero h1:nth-child(1) {
+    margin-bottom: 1rem;
+}
+
+#stats .stats-hero span {
+    color: #005AE2;
+}
+
+#stats .stats-container {
+    display: flex;
+    justify-content: flex-end;
+    gap: 4.5rem;
+    font-size: 1rem;
+    font-family: Gilroy-Medium;
+    line-height: 1.5rem;  
+}
+
+#stats .stats-container h3 {
+    font-size: 2rem;
+    line-height: 2.5rem;
+}
+/* End of Stats Section  */
+
+
+/* Why Section  */
+#why {
+    display: flex;
+    margin: 128px 120px 130px 120px;
+    justify-content: space-evenly;
+}
+
+#why .left {
+    margin-right: 6rem;
+}
+
+#why .left .heading {
+    display: flex;
+    margin-bottom: 1.5rem;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+#why .left .heading h1{
+    font-size: 2.5rem;
+    line-height: 2rem;
+    padding-left: 1rem;
+    font-family: Gilroy-Bold;
+}
+
+#why .left .heading h1 span {
+    color: #005AE2;
+}
+
+#why .left .text {
+    width: 370px;
+    padding-left: 28px;
+    font-size: 1rem;
+    font-family: Gilroy-Medium;
+    line-height: 1.75rem;
+}
+
+#why .right h2{
+    margin-top: 40px;
+    margin-bottom: 1rem;
+    font-family: Gilroy-Medium;
+    line-height: 1.75rem;
+    font-size: 2rem;
+}
+
+#why .right p {
+    width: 340px;
+    font-size: 1rem;
+    font-family: Gilroy-Medium;
+    line-height: 1.5rem;
+}
+
+#why .right .top {
+    display: flex;
+    margin-bottom: 4rem;
+    justify-content: flex-end;
+}
+
+#why .right .bottom {
+    display: flex;
+    justify-content: flex-end;
+}
+/* End of Why Section  */
+
+
+/* Pricing Section  */
+#pricing .heading {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
+
+#pricing .heading h1 {
+    font-size: 2.5rem;
+    line-height: 3rem;
+    margin-left: 1rem;
+    font-family: Gilroy-Bold;
+}
+
+#pricing .heading span {
+    color: #005AE2;
+}
+
+#pricing .text{
+    width: 556px;
+    line-height: 1.5rem;
+    margin-bottom: 4.25rem;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Gilroy-Medium;
+}
+
+#pricing .price-list {
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 68px;
+}
+
+#pricing .price-list .transparent {
+    border: 0.4px solid #005AE2;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.05);
+    height: fit-content;
+    border-radius: 12px;
+    padding: 24px 87px 45px 87px;
+    margin-top: 86px;
+}
+
+#pricing .price-list .transparent .head {
+    margin-bottom: 34px;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    font-family: Gilroy-Medium;
+
+}
+
+#pricing .price-list .transparent h1 {
+    font-size: 2.5rem;
+    line-height: 3rem;
+    margin-bottom: 0.5rem;
+    font-family: Gilroy-Bold;
+}
+
+#pricing .price-list .transparent .info {
+    font-size: 1.25rem;
+    line-height: 2rem;
+    margin-bottom: 1rem;
+    font-family: Gilroy-Medium;
+}
+
+#pricing .price-list .transparent p {
+    margin-bottom: 1.5rem;
+    align-items: center;
+    font-size: 0.875rem;
+    font-family: Gilroy-Medium;
+    line-height: 1.5rem;
+}
+
+#pricing .price-list .basic {
+    margin-right: -40px;
+    z-index: -1;
+}
+
+#pricing .price-list .teams {
+    margin-left: -40px;
+    z-index: -1;
+}
+
+#pricing .price-list .professional {
+    background: linear-gradient(180deg, #1E3448 99.99%, rgba(30, 52, 72, 0) 100%);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.05);
+    border-radius: 12px;
+    color: #fff;
+    padding: 95px 87px 148px 87px;
+    height: fit-content;
+}
+
+#pricing .price-list .professional .head {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    margin-bottom: 1.5rem;
+    font-family: Gilroy-Medium;
+}
+
+#pricing .price-list .professional h1 {
+    font-size: 2.5rem;
+    line-height: 3rem;
+    margin-bottom: 0.5rem;
+    font-family: Gilroy-Bold;
+}
+
+#pricing .price-list .professional .info {
+    font-size: 1.25rem;
+    line-height: 2rem;
+    margin-bottom: 1.5rem;
+    font-family: Gilroy-Medium;
+}
+
+#pricing .price-list .professional p {
+    margin-bottom: 1.5rem;
+    align-items: center;
+    font-size: 0.875;
+    font-family: Gilroy-Medium;
+    line-height: 1.5rem;
+}
+
+#pricing .buttons {
+    display: flex;
+    gap: 0.625rem;
+    justify-content: center;
+    margin-bottom: 7rem;
+}
+
+#pricing .buttons .button1 {
+    padding: 18px 28px;
+    border-radius: 30px;
+    border: 0.4px solid #005AE2;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.05);
+    color: #005AE2;
+    font-size: 1rem;
+    line-height: 0.75rem;
+    font-family: Gilroy-Medium;
+}
+
+#pricing .buttons .button2 {
+    padding: 18px 50px;
+    background: #0065FE;
+    border-radius: 100px;
+    width: 200px;
+    color: #fff;
+    border: none;
+    font-size: 1rem;
+    line-height: 0.75rem;
+    font-family: Gilroy-Medium;
+}
+
+/* Form Section  */
+#form {
+    height: 523px;
+    background: linear-gradient(180deg, #1E3448 99.99%, rgba(30, 52, 72, 0) 100%);
+    display: inline-flex;
+    padding: 2.625rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 1.5rem;
+    width: 100%;
+    position: relative;
+}
+
+.form-input {
+    background-color: white;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 42px;
+    border-radius: 12px;
+}
+
+.top input {
+    margin-bottom: 1.5rem;
+    padding: 8px 12px;
+    border: 1px solid #3284ff;
+    width: 392px;
+    border-radius: 12px;
+    font-size: 0.75rem;
+    font-family: Gilroy-Medium;
+    line-height: 1.125rem;
+}
+
+
+#form .middle-line {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.45rem;
+    margin-bottom: 1.5rem;
+    width: 392px;
+}
+
+.middle-line input {
+    padding: 8px 10px;
+    border: 1px solid #3284ff;
+    border-radius: 12px;
+    font-size: 0.75rem;
+    font-family: Gilroy-Medium;
+    line-height: 1.125rem;
+    width: 178px;
+
+}
+
+.input1 {
+    position: relative;
+    width: 202px;
+}
+
+.domain-icon {
+    position: absolute;
+    right: 2.25rem;
+    top: 0.875rem;
+}
+
+#form .form-input input::placeholder {
+    color: #3284FF;
+}
+
+#form button {
+    width: 392px;
+    padding: 12px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color: #005AE2;
+    border-radius: 100px;
+    border: none;
+    font-size: 0.875rem;
+    font-family: Gilroy-Medium;
+    line-height: 0.75rem;
+    color: white;
+    margin-bottom: 1.375rem;
+}
+
+#form p {
+    color: #4991FF;
+    font-size: 0.875rem;
+    font-family: Gilroy-Medium;
+    line-height: 1.25rem;
+    width: 373px;
+}
+
+#form span {
+    font-weight: bold;
+}
+
+.url-left {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.url-right {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+/* End of Form Section  */
+
+/* FAQs Section  */
+#faqs {
+    margin-bottom: 155px;
+    margin-right: 324px;
+    margin-left: 324px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+#faqs .heading {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 52px;
+    margin-bottom: 72px;
+}
+
+#faqs .heading h1 {
+    font-size: 2.5rem;
+    line-height: 3rem;
+    margin-left: 1rem;
+    font-size: 2.5rem;
+    font-family: Gilroy-Bold;
+    line-height: 2rem;
+}
+
+.faq-section {
+    max-width: 850px;
+    padding-bottom: 16px;
+    border-bottom: 1px solid #D6D6D6;
+    cursor: pointer;
+    margin-bottom: 32px;
+}
+
+.question {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.question h3 {
+    font-size: 1.25;
+    font-family: Gilroy-Medium;
+    line-height: 2rem;
+}
+
+.answer {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 1.4s ease;
+}
+
+.answer p {
+    padding-top: 16px;
+    font-size: 1rem;
+    font-family: Gilroy-Medium;
+    line-height: 2rem;
+}
+
+.faq-section.active .answer {
+    max-height: 300px;
+}
+
+.faq-section.active svg {
+    transform: rotate(45deg);
+}
+
+svg {
+    transition: transform 0.5s ease-in;
+}
+
+.faq-left {
+    position: absolute;
+    top: 0;
+    left: -324px;
+}
+
+.faq-right {
+    position: absolute;
+    right: -324px;
+    bottom: -155px;
+}
+/* End of FAQs Section  */
+
+/* Get Started Section  */
+#getStarted {
+    position: relative;
+    height: 300px;
+    background: linear-gradient(180deg, #1E3448 99.99%, rgba(30, 52, 72, 0) 100%);
+}
+
+#getStarted .main h1 {
+    font-size: 2.5rem;
+    line-height: 3rem;
+    text-align: center;
+    padding-top: 109px;
+    color: white;
+    margin-bottom: 2rem;
+    font-family: Gilroy-Bold;
+}
+
+#getStarted button {
+    display: block;
+    justify-content: center;
+    padding: 18px 50px;
+    background: #0065FE;
+    border-radius: 100px;
+    width: 200px;
+    color: #fff;
+    border: none;
+    font-size: 1rem;
+    line-height: 0.75rem;
+    margin: 0 auto;
+    font-family: Gilroy-Medium;
+}
+
+.getStarted-left {
+    position: absolute;
+    left: 0;
+}
+
+.getStarted-right {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+/* End of Get Started Section  */
+
+/* Footer Section  */
+#footer {
+    display: flex;
+    justify-content: space-between;
+    margin: 95px 202px 82px 202px;
+    position: relative;
+}
+
+#footer .card {
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+#footer .card h2 {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    margin-bottom: 0.5rem;
+    font-family: Gilroy-Bold;
+}
+
+#footer .card a {
+    display: block;
+    padding-bottom: 0.5rem;
+    text-decoration: none;
+    color: #112232;
+    cursor: default;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-family: Gilroy-Medium;
+}
+
+#footer .logo {
+    margin-bottom: 34px;
+}
+
+#footer .left .icons svg{
+    margin-right: 26px;
+}
+
+#footer .center .top {
+    display: flex;
+    gap: 4.5rem;
+    margin-bottom: 2rem;
+}
+
+#footer .center .bottom {
+    display: flex;
+    gap: 4.5rem;
+}
+
+.bottom-right {
+    position: absolute;
+    bottom: -82px;
+    right: -202px;
+    /* background-color: red; */
+}
+
+.top-left {
+    position: absolute;
+    /* background-color: red; */
+    bottom: -82px;
+    left: -202px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
